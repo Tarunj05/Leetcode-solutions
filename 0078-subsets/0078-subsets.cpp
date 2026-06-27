@@ -1,24 +1,24 @@
 class Solution {
 public:
-    void solve( int i , vector<int>& nums , vector<int>& ds , vector<vector<int>>&result){
-        if( i == nums.size()){
-            result.push_back(ds);
-            return;
+
+    void backtrack( int start , vector<int>& nums, vector<int>& templist , vector<vector<int>>& list ){
+        list.push_back( templist );
+
+        for( int i = start ; i<nums.size() ; i++){
+            //pick
+            templist.push_back( nums[i] );
+            //explore all the next possibities
+            backtrack( i+1 , nums , templist , list );
+            //undo so that we get all the cases without nums[i]
+            templist.pop_back();
         }
-        //pick
-        ds.push_back(nums[i]);
-        solve(i+1,nums,ds,result);
-
-        // undo
-        ds.pop_back();
-
-        solve( i+1, nums,ds,result);
     }
-    vector<vector<int>> subsets(vector<int>& nums) {
-        vector<vector<int>> result;
-        vector<int> ds;
 
-        solve(0,nums,ds,result);
-        return result;
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>> list;
+        vector<int> templist;
+
+        backtrack(0,nums,templist, list);
+        return list;
     }
 };
