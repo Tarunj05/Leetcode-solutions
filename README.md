@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0090-subsets-ii) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0090-subsets-ii) |
 ## Bit Manipulation
