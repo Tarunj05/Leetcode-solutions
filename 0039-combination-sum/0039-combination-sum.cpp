@@ -1,27 +1,35 @@
 class Solution {
 public:
-
-    void backtrack( int i ,  int target , vector<int>& nums , vector<int>& templist , vector<vector<int>>& list){
-        if( target == 0 ){list.push_back( templist );
-            return;}
-        if(i == nums.size()){
-            if( target == 0 )list.push_back( templist );
+    
+    void backtrack( int i ,vector<int>& nums , int target , vector<int>& templist , vector<vector<int>>& list){
+        if( i == nums.size()){
+            if( target == 0) list.push_back( templist );
             return;
         }
-        if( nums[i] <= target ){
-            templist.push_back(nums[i]);
-            backtrack(i, target - nums[i] , nums , templist , list);
-            templist.pop_back();
+        if( target == 0){
+            list.push_back( templist );
+            return;
         }
 
-        backtrack( i+1,target,nums,templist,list);
+        //choose 
+        if( nums[i] <= target ){
+            templist.push_back( nums[i]);
+            //explore all 
+            // *** you can choose ith element again ***
+            backtrack( i ,  nums , target - nums[i] , templist , list );
+            //undo
+            templist.pop_back();
+        }
+        //don't choose , just explore next
+        backtrack( i+1 , nums ,target , templist ,list);
     }
 
-    vector<vector<int>> combinationSum(vector<int>& nums, int target) {
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> list;
         vector<int> templist;
 
-        backtrack ( 0 , target , nums , templist , list);
+        backtrack(0 , candidates , target ,templist,list);
+
         return list;
     }
 };
