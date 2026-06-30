@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0022-generate-parentheses) |
+| [0053-maximum-subarray](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0509-fibonacci-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3700-number-of-zigzag-arrays-ii) |
 ## Array
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0046-permutations](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0078-subsets](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0216-combination-sum-iii) |
@@ -76,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Segment Tree
