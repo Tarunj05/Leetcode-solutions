@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0022-generate-parentheses](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0403-frog-jump](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0403-frog-jump) |
 | [0509-fibonacci-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3700-number-of-zigzag-arrays-ii) |
 ## Array
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0078-subsets](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0216-combination-sum-iii) |
+| [0403-frog-jump](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0403-frog-jump) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2498-frog-jump-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/2498-frog-jump-ii) |
