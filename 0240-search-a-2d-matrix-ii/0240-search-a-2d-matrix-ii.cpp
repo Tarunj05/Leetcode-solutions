@@ -23,10 +23,10 @@ public:
             
             // Fix 3: Safely advance the minimum boundaries only if the current 
             // corner values are confirmed to be smaller than the target
-            if (sr <= er && matrix[sr][ec] < target) {
+            if (sr <= er) {
                 sr++;
             }
-            if (sc <= ec && matrix[er][sc] < target) {
+            if (sc <= ec ) {
                 sc++;
             }
         }
