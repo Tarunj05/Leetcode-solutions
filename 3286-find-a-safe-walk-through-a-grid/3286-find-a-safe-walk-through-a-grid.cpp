@@ -6,18 +6,18 @@ public:
         vector<vector<int>> dist (m , vector<int> ( n , INT_MAX ));
         //cell no = m*r + c + 1;
         // r = cell N0 / m , c = cellno - m*r
-        priority_queue<p , vector<p> , greater<p>> pq;
+        deque<p> dq;
 
         // start with 1 , reqHealth = 0;
-        pq.push({grid[0][0],0,0});
+        dq.push_front({grid[0][0],0,0});
         // starting cost
         dist[0][0] = grid[0][0];
 
         vector<int> dir = {1 , 0 , - 1 , 0 , 1};
 
-        while( !pq.empty()){
-            int cost = pq.top()[0] , r = pq.top()[1] , c = pq.top()[2];
-            pq.pop();
+        while( !dq.empty()){
+            int cost = dq.front()[0] , r = dq.front()[1] , c = dq.front()[2];
+            dq.pop_front();
 
             if(r == m-1 && c == n-1){
                 return health > cost;
@@ -33,7 +33,8 @@ public:
 
                     if( newCost < dist[nr][nc] ){
                         dist[nr][nc] = newCost;
-                        pq.push({newCost,nr,nc});
+                        if( grid[nr][nc]==0 )dq.push_front({newCost,nr,nc});
+                        else dq.push_back({newCost,nr,nc});
                     }
                 }
             }
