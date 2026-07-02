@@ -3,15 +3,13 @@ public:
     using p = vector<int>;
     bool findSafeWalk(vector<vector<int>>& grid, int health) {
         int m = grid.size() , n = grid[0].size();
-        vector<vector<int>> dist (m , vector<int> ( n , INT_MAX ));
-        //cell no = m*r + c + 1;
-        // r = cell N0 / m , c = cellno - m*r
+        vector<vector<int>> minCost (m , vector<int> ( n , INT_MAX ));
         deque<p> dq;
 
-        // start with 1 , reqHealth = 0;
+
         dq.push_front({grid[0][0],0,0});
         // starting cost
-        dist[0][0] = grid[0][0];
+        minCost[0][0] = grid[0][0];
 
         vector<int> dir = {1 , 0 , - 1 , 0 , 1};
 
@@ -23,16 +21,16 @@ public:
                 return health > cost;
             }
 
-            if( cost > dist[r][c]) continue;
-            // push valid unvisited neighbours
+            if( cost > minCost[r][c]) continue;
+
             for(int i = 0 ; i<=3 ; i++ ){
                 int nr = r + dir[i] , nc = c + dir[i+1];
                 if( nr>=0 && nr<m && nc>=0 && nc<n){
                     
                     int newCost = cost + grid[nr][nc];
-
-                    if( newCost < dist[nr][nc] ){
-                        dist[nr][nc] = newCost;
+                    //if we get a better path , then only update it
+                    if( newCost < minCost[nr][nc] ){
+                        minCost[nr][nc] = newCost;
                         if( grid[nr][nc]==0 )dq.push_front({newCost,nr,nc});
                         else dq.push_back({newCost,nr,nc});
                     }
