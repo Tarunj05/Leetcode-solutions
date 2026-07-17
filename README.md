@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0300-longest-increasing-subsequence](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0403-frog-jump](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0403-frog-jump) |
 | [0509-fibonacci-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0509-fibonacci-number) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [1301-number-of-paths-with-max-score](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3620-network-recovery-pathways](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3620-network-recovery-pathways) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0240-search-a-2d-matrix-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0403-frog-jump](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0403-frog-jump) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [1288-remove-covered-intervals](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
@@ -147,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0047-permutations-ii) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [1288-remove-covered-intervals](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -154,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Greedy
 |  |
 | ------- |
+| [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2498-frog-jump-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/2498-frog-jump-ii) |
 ## Sliding Window
