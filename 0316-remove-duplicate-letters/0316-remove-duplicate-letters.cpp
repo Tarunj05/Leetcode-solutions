@@ -1,0 +1,24 @@
+class Solution {
+public:
+    string removeDuplicateLetters(string s) {
+        int n = s.length();
+        string result;
+        vector<bool> taken( 26 , false );
+        vector<int> lastIndex(26);
+
+        for( int i=0 ; i<n ; ++i){
+            lastIndex[s[i]-'a'] = i;
+        }
+
+        for( int i=0 ; i<n ; ++i){
+            if(taken[s[i]-'a'])continue;
+            while(result.length()>0 && result.back() > s[i] && lastIndex[result.back()-'a']>i){
+                taken[result.back()-'a']=false;
+                result.pop_back();
+            }
+            result.push_back(s[i]);
+            taken[s[i]-'a'] = true;
+        }
+        return result;
+    }
+};
