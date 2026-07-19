@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0316-remove-duplicate-letters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0316-remove-duplicate-letters) |
+| [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0403-frog-jump](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0403-frog-jump) |
 | [0509-fibonacci-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
+| [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1301-number-of-paths-with-max-score](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3620-network-recovery-pathways](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3620-network-recovery-pathways) |
@@ -65,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0300-longest-increasing-subsequence](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0403-frog-jump](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0403-frog-jump) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
+| [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1288-remove-covered-intervals](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
@@ -105,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1331-rank-transform-of-an-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
@@ -154,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0047-permutations-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0047-permutations-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
+| [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1288-remove-covered-intervals](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -246,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Two Pointers
 |  |
 | ------- |
+| [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Simulation
 |  |
