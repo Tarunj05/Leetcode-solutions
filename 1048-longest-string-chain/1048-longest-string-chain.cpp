@@ -17,29 +17,35 @@ public:
         return i == M;
     }
 
-    int lis( int i , int prev , vector<string>& words , vector<vector<int>>& dp ){
-        if( i == words.size()) return 0;
-
-        if( dp[i][prev + 1] != -1) return dp[i][prev+1];
-        // not take
-        int len = lis(i+1, prev , words , dp);
-        // take
-        if( prev == -1 || isPred( words[prev] , words[i] )){
-            len = max( len , 1 + lis(i+1 , i , words , dp ));
-        }
-        return dp[i][prev + 1] = len;
-    }
-
-
-
     int longestStrChain(vector<string>& words) {
         int n = words.size();
         sort( words.begin() , words.end() , cmp );
 
         // changing parameters : i , prev , dp state : dp[n+1][n+1];
 
-        vector<vector<int>> dp( n+1 , vector<int> ( n + 1 , -1 ));
+        vector<vector<int>> dp( n+1 , vector<int> ( n + 1 ,0 ));
 
-        return lis( 0 , -1 , words ,dp);
+        // base case , when i == n, dp[i][prev+1] = 0;
+        // dp table is already initialized with 0 , so no need to specify it
+
+        // changing parameters loop
+
+        for( int i = n-1 ; i>=0 ; i--){
+            for( int prev = -1  ; prev < i ; prev++){
+                // not take
+                int len = dp[i+1][prev+1];
+
+                if( prev == -1 || isPred( words[prev] , words[i])){
+                    len = max( len , 1 + dp[i+1][i+1]);
+                }
+                dp[i][prev+1] = len;
+            }
+        }
+
+        // 
+
+
+
+        return dp[0][0];
     }
 };
