@@ -2,29 +2,34 @@ class Solution {
 public:
     string smallestSubsequence(string s) {
         int n = s.length();
-        vector<int> lastIndex( 26 , 0);
-        vector<bool> taken(26 , false);
-        string st;
+        string result;
+        vector<int> lastIndex( 26 );// this will track the last occurences of characters int the string 
+        vector<bool> taken( 26 , false );// this will keep a track of chosen characters, so we avoid duplicates
 
-        for( int i = 0 ; i<n ; i++){
-            lastIndex[s[i] - 'a'] = i;
+        // populating the lastIndex
+        for( int i=0 ; i<n ; ++i){
+            lastIndex[s[i]-'a'] = i;
         }
 
-        for(int i=0 ; i<n ; i++){
-            char ch = s[i];
+        // parse the given string one by one 
 
-            if( taken[ch - 'a'])continue;
+        for( int i=0 ; i<n ; ++i){
+            //if the ith character is already taken , continue
+            if(taken[s[i]-'a']) continue;
 
-            while( st.length() > 0 && st.back() > ch && lastIndex[st.back()-'a'] > i){
-                taken[st.back()-'a'] = false;
-                st.pop_back();
+            // pop all the larger characters that can come after ith character
+            // this way we get the lexicographically smallest one
+            while(!result.empty() &&  result.back() > s[i] && lastIndex[result.back()-'a'] > i){
+                // mark it untaken
+                taken[result.back()-'a'] = false;
+                result.pop_back();
             }
 
-            st.push_back(ch);
-            taken[ch-'a'] = true;
-            
+            // push the current element and mark it taken
+            result.push_back(s[i]);
+            taken[s[i]-'a'] = true;
         }
 
-        return st;
+        return result;
     }
 };
