@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1922-count-good-numbers](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1922-count-good-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2520-count-the-digits-that-divide-a-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/2520-count-the-digits-that-divide-a-number) |
+| [3280-convert-date-to-binary](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3280-convert-date-to-binary) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3513-number-of-unique-xor-triplets-i) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [3280-convert-date-to-binary](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3280-convert-date-to-binary) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
