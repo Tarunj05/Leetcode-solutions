@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0486-predict-the-winner](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0877-stone-game](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1922-count-good-numbers](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1922-count-good-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2520-count-the-digits-that-divide-a-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/2520-count-the-digits-that-divide-a-number) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0877-stone-game](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0877-stone-game) |
 | [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
+| [1140-stone-game-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1301-number-of-paths-with-max-score](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3620-network-recovery-pathways](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3620-network-recovery-pathways) |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0658-find-k-closest-elements](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0877-stone-game](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0877-stone-game) |
 | [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
+| [1140-stone-game-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1260-shift-2d-grid](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
@@ -162,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Prefix Sum
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -324,4 +328,5 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0486-predict-the-winner](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1140-stone-game-ii) |
 <!---LeetCode Topics End-->
