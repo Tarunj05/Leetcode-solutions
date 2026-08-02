@@ -5,8 +5,12 @@ public:
 
     int rec( int i ,int m,vector<int>& piles,vector<int>& suffix){
         // rec -> returns the max stones current player can collect
+
+
         // base case
         if( i == piles.size())return 0;
+        // pruning
+        if(2*m > suffix[i])return suffix[i];
 
         //cache check
         if(dp[i][m] != -1) return dp[i][m];
