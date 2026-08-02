@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0050-powx-n](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0050-powx-n) |
 | [0486-predict-the-winner](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0509-fibonacci-number) |
+| [0877-stone-game](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0877-stone-game) |
 | [1922-count-good-numbers](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1922-count-good-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2520-count-the-digits-that-divide-a-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/2520-count-the-digits-that-divide-a-number) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0486-predict-the-winner](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
+| [0877-stone-game](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0877-stone-game) |
 | [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1301-number-of-paths-with-max-score](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0496-next-greater-element-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0658-find-k-closest-elements](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0658-find-k-closest-elements) |
+| [0877-stone-game](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0877-stone-game) |
 | [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1260-shift-2d-grid](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1288-remove-covered-intervals) |
@@ -320,4 +323,5 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
