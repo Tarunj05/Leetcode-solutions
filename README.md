@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3280-convert-date-to-binary](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3280-convert-date-to-binary) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3700-number-of-zigzag-arrays-ii) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
 ## Sorting
 |  |
