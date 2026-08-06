@@ -295,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0101-symmetric-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0207-course-schedule](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0226-invert-binary-tree) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Stack
 |  |
 | ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0316-remove-duplicate-letters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0316-remove-duplicate-letters) |
 | [0496-next-greater-element-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
@@ -356,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0102-binary-tree-level-order-traversal](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0107-binary-tree-level-order-traversal-ii) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0226-invert-binary-tree](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
@@ -369,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0102-binary-tree-level-order-traversal](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0107-binary-tree-level-order-traversal-ii) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0226-invert-binary-tree](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
@@ -378,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Linked List
 |  |
 | ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 ## DP on Trees
 |  |
