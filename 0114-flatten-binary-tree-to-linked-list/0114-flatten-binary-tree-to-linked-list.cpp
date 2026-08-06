@@ -11,24 +11,19 @@
  */
 class Solution {
 public:
-
-    void preorder( TreeNode* root , vector<int>& traversal){
-        if(!root) return;
-        traversal.push_back(root->val);
-        preorder(root->left,traversal);
-        preorder(root->right,traversal);
-    }
-
     void flatten(TreeNode* root) {
-        vector<int> traversal;
-        preorder( root , traversal);
-        TreeNode* temp = root ;
-        int n =traversal.size();
-        for(int i=0 ; i<n ; i++){
-            temp->val = traversal[i];
-            temp->left = nullptr;
-            if( i < n-1) temp->right = new TreeNode;
-            temp = temp->right;
+        TreeNode* curr = root;
+        while( curr ){
+            if( curr->left){
+                TreeNode* leftRightmost  = curr->left;
+                while( leftRightmost->right){
+                    leftRightmost = leftRightmost->right;
+                }
+                leftRightmost -> right = curr -> right;
+                curr-> right = curr -> left;
+                curr->left = nullptr;
+            }
+            curr = curr -> right;
         }
     }
 };
