@@ -1,11 +1,17 @@
 class Solution {
 public:
 
-    void dfs( int vertex , vector<int>& vis , vector<vector<int>>& adj ){
-        vis[vertex] = 1;
-        for( int child : adj[vertex]){
-            if(!vis[child]){
-                dfs(child , vis ,adj);
+    void bfs( int vertex , vector<int>& vis , vector<vector<int>>& adj ){
+        queue<int> q;
+        q.push(vertex);
+        vis[vertex]=1;
+        while(!q.empty()){
+            int curr = q.front();q.pop();
+            for( int child : adj[curr]){
+                if( !vis[child]){
+                    q.push(child);
+                    vis[child]=1;
+                }
             }
         }
     }
@@ -26,7 +32,7 @@ public:
         for( int i=0 ; i<n ; i++){
             if(!vis[i]){
                 provinces++;
-                dfs( i , vis, adj);
+                bfs( i , vis, adj);
             }
         }
         return provinces;
