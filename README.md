@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0112-path-sum](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0207-course-schedule](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -291,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0785-is-graph-bipartite) |
@@ -309,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0802-find-eventual-safe-states](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
 | [3620-network-recovery-pathways](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3620-network-recovery-pathways) |
 ## Database
@@ -329,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0207-course-schedule](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
