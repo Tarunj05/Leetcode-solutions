@@ -469,4 +469,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
