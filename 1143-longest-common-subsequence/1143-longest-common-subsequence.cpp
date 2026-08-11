@@ -1,28 +1,37 @@
 class Solution {
 public:
-    int dp[1010][1010];
-
-    int rec( int i , int j , string& a , string& b){
-        //base case
-        if( i >= a.length() || j >= b.length()){
-            return 0;
-        }
-        // cache check
-        if(dp[i][j] != -1) return dp[i][j];
-        
-        // compute
-        int ans = 0;
-        if( a[i] == b[j]){
-            ans = max( 1 + rec( i+1 , j+1 , a , b) , ans);
-        }
-        ans = max(rec( i , j+1 , a , b) , ans);
-        ans = max( rec( i+1 , j , a , b) , ans);
-
-        return dp[i][j] = ans;
-    }
 
     int longestCommonSubsequence(string text1, string text2) {
-        memset(dp,-1,sizeof(dp));
-        return rec( 0 , 0 , text1 ,text2);
+
+        int n = text1.size();
+        int m = text2.size();
+
+        vector<vector<int>> dp(
+            n + 1,
+            vector<int>(m + 1, 0)
+        );
+
+        // Last row and last column are already 0
+        // because dp is initialized with 0.
+
+        for(int i = n - 1; i >= 0; i--) {
+
+            for(int j = m - 1; j >= 0; j--) {
+
+                if(text1[i] == text2[j]) {
+
+                    dp[i][j] = 1 + dp[i + 1][j + 1];
+
+                } else {
+
+                    dp[i][j] = max(
+                        dp[i + 1][j],
+                        dp[i][j + 1]
+                    );
+                }
+            }
+        }
+
+        return dp[0][0];
     }
 };
