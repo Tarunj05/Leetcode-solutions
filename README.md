@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0022-generate-parentheses](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0257-binary-tree-paths](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0257-binary-tree-paths) |
 | [0316-remove-duplicate-letters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0316-remove-duplicate-letters) |
+| [0402-remove-k-digits](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1092-shortest-common-supersequence](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1092-shortest-common-supersequence) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0316-remove-duplicate-letters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0316-remove-duplicate-letters) |
+| [0402-remove-k-digits](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -381,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0316-remove-duplicate-letters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0316-remove-duplicate-letters) |
+| [0402-remove-k-digits](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
@@ -388,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0316-remove-duplicate-letters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0316-remove-duplicate-letters) |
+| [0402-remove-k-digits](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
