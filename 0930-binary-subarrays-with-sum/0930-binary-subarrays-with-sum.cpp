@@ -1,19 +1,29 @@
 class Solution {
 public:
-    int numSubarraysWithSum(vector<int>& nums, int goal) {
+
+    int noOfSubarraysWithSumK( int k , vector<int>& nums){
+        if(k<0)return 0;
         int n = nums.size();
-        unordered_map<int,int> seenCount; // sumSeen -> freq
-        seenCount[0] = 1;//sum=0 is seen, when no elements are taken
-        int currPrefixSum = 0;
+        int l=0;
+        int sum = 0 ;
         int subarrayCount = 0;
-        for( int i=0 ; i<n ; i++){
-            //include the curr element
-            currPrefixSum += nums[i];
-            // record the no of subarrays with sum = goal , till ith index
-            subarrayCount += seenCount[ currPrefixSum - goal ];
-            // also store the currPrefixSum in the seenCount map
-            seenCount[currPrefixSum]++;
+        for( int r=0 ; r<n ; r++){
+            //include right
+            sum += nums[r];
+            //shrink while invalid
+            while(sum > k ){
+                sum -= nums[l];
+                l++;
+            }
+            // here the window is valid
+            //update ans
+            subarrayCount += r - l + 1;
         }
         return subarrayCount;
+    }
+
+    int numSubarraysWithSum(vector<int>& nums, int k) {
+        
+        return noOfSubarraysWithSumK( k , nums ) - noOfSubarraysWithSumK( k-1 , nums );
     }
 };
