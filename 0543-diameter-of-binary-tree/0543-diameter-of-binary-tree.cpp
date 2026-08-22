@@ -12,21 +12,20 @@
 class Solution {
 public:
 
-    int rec( TreeNode* root , int& res ){
+    int height( TreeNode* root , int& maxDiameter){
+        if( !root) return 0;
 
-        int left=0 , right=0;
-        if( root->left) left = rec( root -> left ,res)+1;
+        int left = height( root-> left , maxDiameter);
+        int right = height( root-> right , maxDiameter);
 
-        if( root->right) right = rec( root -> right ,res)+1;
+        maxDiameter = max( maxDiameter , left+ right);
 
-        res = max(res ,left + right);
-        return max(left , right );
+        return 1 + max( left , right);
     }
 
     int diameterOfBinaryTree(TreeNode* root) {
-        if(!root) return 0;
-        int res = 0;
-        rec( root , res );
-        return res;
+        int maxDiameter = 0 ;
+        height( root , maxDiameter);
+        return maxDiameter;
     }
 };
