@@ -398,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0189-rotate-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0189-rotate-array) |
 | [0658-find-k-closest-elements](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0658-find-k-closest-elements) |
+| [0876-middle-of-the-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Simulation
@@ -490,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0237-delete-node-in-a-linked-list) |
+| [0876-middle-of-the-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 ## DP on Trees
 |  |
 | ------- |
