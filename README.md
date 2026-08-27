@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0050-powx-n) |
+| [0206-reverse-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0486-predict-the-winner](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [1922-count-good-numbers](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1922-count-good-numbers) |
@@ -490,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0206-reverse-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0237-delete-node-in-a-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 ## DP on Trees
