@@ -10,29 +10,30 @@
  */
 class Solution {
 public:
+   ListNode* removeNthFromEnd(ListNode* head, int n) {
+    ListNode* fast = head;
+    ListNode* slow = head;
 
-    int noOfNodes( ListNode* head ){
-        int count = 0;
-        while( head ){
-            count++;
-            head = head -> next;
-        }
-        return count;
+    for (int i = 0; i < n; i++) {
+        fast = fast->next;
     }
 
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
-        
-        int sz = noOfNodes( head );
-        if( sz == n) return head -> next;
-        ListNode* curr = head;
-        int count = 1;
-        while( count < sz - n  ){
-            count++;
-            curr = curr -> next;
-        }
-        ListNode* toDelete = curr -> next;
-        curr -> next = curr -> next -> next;
-        delete toDelete;
-        return head;
+    // Edge Case: If fast is nullptr, we need to remove the head node
+    if (!fast) {
+        ListNode* newHead = head->next;
+        delete head;
+        return newHead;
     }
+
+    while (fast->next != nullptr) {
+        fast = fast->next;
+        slow = slow->next;
+    }
+
+    ListNode* toDelete = slow->next;
+    slow->next = slow->next->next;
+    delete toDelete;
+
+    return head;
+}
 };
