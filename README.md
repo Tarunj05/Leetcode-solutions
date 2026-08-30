@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0148-sort-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0148-sort-list) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Merge Sort
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0148-sort-list) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Counting
@@ -232,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0047-permutations-ii) |
+| [0148-sort-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0148-sort-list) |
 | [0268-missing-number](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0268-missing-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0658-find-k-closest-elements](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0658-find-k-closest-elements) |
@@ -405,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0658-find-k-closest-elements](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0658-find-k-closest-elements) |
@@ -505,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0141-linked-list-cycle](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0237-delete-node-in-a-linked-list) |
