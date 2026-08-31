@@ -12,29 +12,22 @@
 class Solution {
 public:
 
-    void inorder( TreeNode* root , vector<int>& traversal ){
-        if( !root ) return;
-        inorder( root -> left , traversal );
-        traversal.push_back( root -> val );
-        inorder( root -> right , traversal );
-    }
+    bool inorder( TreeNode* root , TreeNode*& prev ){
+        if(!root ) return true;
+        
+        if( !inorder( root -> left ,prev)) return false;
 
-    bool isSorted( vector<int>& arr ){
-        int n = arr.size();
-        int num = arr[0];
-        for( int i=1 ; i<n ; i++){
-            if( arr[i] <= num){
-                return false;
-            }
-            num = arr[i];
-        }
+        if( prev && root -> val <= prev-> val ) return false;
+        else prev = root;
+
+        if( !inorder( root -> right , prev )) return false;
+
         return true;
     }
 
     bool isValidBST(TreeNode* root) {
-        if( !root ) return true;
-        vector<int> traversal;
-        inorder( root , traversal );
-        return isSorted( traversal );
+        if( ! root ) return true;
+        TreeNode* prev = nullptr;
+        return inorder( root , prev );
     }
 };
