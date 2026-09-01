@@ -12,32 +12,20 @@
 class Solution {
 public:
 
-    TreeNode* build( int low , int high , vector<int>& arr ){
-        //base case
-        if( low > high || low >= arr.size()) return nullptr;
+    TreeNode* build( vector<int>& preorder , int& idx , int lower , int upper ){
+        if( idx >= preorder.size() || preorder[idx] > upper || preorder[idx]<lower) return nullptr;
 
+        TreeNode* root = new TreeNode( preorder[idx++]);
 
-        //solve current state
+        root -> left = build( preorder , idx , lower , root -> val );
 
-        TreeNode* root = new TreeNode( arr[low] );
+        root -> right = build( preorder , idx , root -> val , upper );
 
-        int leftStart = low + 1;
-        
-        int rightStart = leftStart;
-        while( rightStart < arr.size() && arr[rightStart] < arr[low] ){
-            rightStart++;
-        }
-        int leftEnd = rightStart-1;
-        int rightEnd = high;
-
-        root -> left = build( leftStart , leftEnd , arr);
-
-        root -> right = build( rightStart , rightEnd , arr );
-
-        return root;
+        return root ;
     }
 
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-        return build( 0 , preorder.size() , preorder);
+        int idx = 0;
+        return build( preorder ,idx , INT_MIN , INT_MAX);
     }
 };
