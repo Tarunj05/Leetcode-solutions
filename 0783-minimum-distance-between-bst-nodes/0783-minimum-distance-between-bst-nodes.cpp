@@ -1,24 +1,24 @@
 class Solution {
 public:
-
-    void inorder( TreeNode* root , vector<int>& traversal ){
+    int minDiff = INT_MAX;
+    void inorder( TreeNode* root , int& prev ){
         if( !root ) return;
 
-        inorder( root -> left , traversal);
-        traversal.push_back( root -> val );
-        inorder( root -> right , traversal );
+        inorder( root -> left , prev);
+        if( prev != -1){
+            minDiff = min( minDiff , abs( prev - root -> val));
+        }
+        prev = root -> val;
+        inorder( root -> right ,prev);
 
     }
 
     int minDiffInBST(TreeNode* root) {
         
-        vector<int> traversal;
-        inorder( root , traversal );
+        int prev = -1;
 
-        int minDiff = INT_MAX;
-        for( int i=0 ; i<traversal.size()-1 ; i++){
-            minDiff = min( minDiff , abs( traversal[i] - traversal[i+1] ) );
-        }
+        inorder( root , prev);
+
         return minDiff;
     }   
 };
