@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1143-longest-common-subsequence](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3620-network-recovery-pathways](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3620-network-recovery-pathways) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3700-number-of-zigzag-arrays-ii) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1301-number-of-paths-with-max-score](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1288-remove-covered-intervals](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/3517-smallest-palindromic-rearrangement-i) |
