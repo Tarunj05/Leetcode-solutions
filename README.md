@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0503-next-greater-element-ii](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0525-contiguous-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0575-distribute-candies](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0575-distribute-candies) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0658-find-k-closest-elements](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0877-stone-game](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0877-stone-game) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0496-next-greater-element-i](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0575-distribute-candies](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0575-distribute-candies) |
 | [0904-fruit-into-baskets](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Tarunj05/Leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [1048-longest-string-chain](https://github.com/Tarunj05/Leetcode-solutions/tree/master/1048-longest-string-chain) |
